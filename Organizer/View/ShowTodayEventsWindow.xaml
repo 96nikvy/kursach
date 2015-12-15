@@ -1,0 +1,43 @@
+﻿<metrocontrols:MetroWindow x:Class="Organizer.View.ShowTodayEventsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Organizer.View"
+        
+        xmlns:metrocontrols="http://metro.mahapps.com/winfx/xaml/controls"
+                           
+        BorderThickness="1" 
+        GlowBrush="Black"
+        ResizeMode="CanResizeWithGrip"
+
+        WindowTransitionsEnabled="False"
+        WindowStartupLocation="CenterScreen"
+        
+        DataContext="{Binding Path=ShowTodayEvents, Source={StaticResource Locator}}"
+                           
+        mc:Ignorable="d"
+        Title="Сегодня" Height="300" Width="300">
+
+    <metrocontrols:MetroWindow.Resources>
+        <ResourceDictionary>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Templates/EventModelBaseTemplate.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            
+            <BooleanToVisibilityConverter x:Key="ConverterVisability" />
+        
+        </ResourceDictionary>
+    </metrocontrols:MetroWindow.Resources>
+    
+    <Grid>
+        <Label Content="На сегодня у вас нет событий" Visibility="{Binding Path=ShowMessageNoEvents,
+                                                                    Converter={StaticResource ConverterVisability}}"  />
+        
+        <StackPanel  Visibility="{Binding Path=ShowEventsToday,Converter={StaticResource ConverterVisability}}"  Orientation="Vertical">
+            <Label Content="На сегодня у вас следующие события" />
+            <ListView ItemsSource="{Binding Path=Events}" SelectionMode="Single"/>
+        </StackPanel>
+    </Grid>
+</metrocontrols:MetroWindow>

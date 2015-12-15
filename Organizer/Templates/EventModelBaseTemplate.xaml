@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:model="clr-namespace:Organizer.Model.Events">
+
+    <!--Отдельно выносим шаблон EventModelBase для отображения-->
+    
+    
+    <DataTemplate DataType="{x:Type model:EventModelBase}">
+        <Grid>
+            <Grid.Resources>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Margin" Value="0,0,0,0" />
+                </Style>
+
+                <Style TargetType="Label">
+                    <Setter Property="Margin" Value="2,2,2,2" />
+                    <Setter Property="Padding" Value="1,1,0,0" />
+                </Style>
+            </Grid.Resources>
+            
+            <Border BorderBrush="DarkRed" CornerRadius="8" BorderThickness="2">
+                <Border.ToolTip>
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Описание :" />
+                            <Label Content="{Binding Path=Description}" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Дата события:" />
+                            <Label Content="{Binding Path=DatePlanned}" ContentStringFormat="dd MMM yyyy" />
+                        </StackPanel>
+                    </StackPanel>
+                </Border.ToolTip>
+                
+                <StackPanel Orientation="Vertical">
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Имя :" />
+                        <Label Content="{Binding Path=Name}" />
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Дата создания:" />
+                        <Label Content="{Binding Path=DateCreated}" ContentStringFormat="dd MMM yyyy"/>
+                    </StackPanel>
+                    
+                </StackPanel>
+            </Border>
+        </Grid>              
+    </DataTemplate>
+
+</ResourceDictionary>

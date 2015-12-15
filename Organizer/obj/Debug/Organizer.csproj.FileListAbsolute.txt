@@ -1,0 +1,93 @@
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\Organizer.exe.config
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Organizer.csprojResolveAssemblyReference.cache
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\App.g.cs
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Organizer_MarkupCompile.cache
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Organizer_MarkupCompile.lref
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\Organizer.exe
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\Organizer.pdb
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.dll
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\MahApps.Metro.dll
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\System.Windows.Interactivity.dll
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.pdb
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.xml
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\MahApps.Metro.xml
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\App.baml
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Organizer.g.resources
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Organizer.Properties.Resources.resources
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Organizer.csproj.GenerateResource.Cache
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Organizer.exe
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Organizer.pdb
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\View\MainWindow.g.cs
+c:\users\geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\View\MainWindow.baml
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\Templates\EventModelBaseTemplate.baml
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\View\EventEditorControl.g.cs
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\View\EventEditorControl.baml
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\View\AddingNewEventWindow.g.cs
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\View\AddingNewEventWindow.baml
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\View\ShowTodayEventsWindow.g.cs
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\obj\Debug\View\ShowTodayEventsWindow.baml
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\ExcelApi.dll
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\NetOffice.dll
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\OfficeApi.dll
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\VBIDEApi.dll
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\stdole.dll
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\ExcelApi.xml
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\NetOffice.xml
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\OfficeApi.xml
+C:\Users\Geralt\documents\visual studio 2015\Projects\Organizer\Organizer\bin\Debug\VBIDEApi.xml
+C:\Organizer\Organizer\bin\Debug\Organizer.exe.config
+C:\Organizer\Organizer\obj\Debug\Organizer.exe
+C:\Organizer\Organizer\obj\Debug\Organizer.pdb
+C:\Organizer\Organizer\bin\Debug\Organizer.exe
+C:\Organizer\Organizer\bin\Debug\Organizer.pdb
+C:\Organizer\Organizer\bin\Debug\ExcelApi.dll
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Organizer\Organizer\bin\Debug\MahApps.Metro.dll
+C:\Organizer\Organizer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Organizer\Organizer\bin\Debug\NetOffice.dll
+C:\Organizer\Organizer\bin\Debug\OfficeApi.dll
+C:\Organizer\Organizer\bin\Debug\System.Windows.Interactivity.dll
+C:\Organizer\Organizer\bin\Debug\VBIDEApi.dll
+C:\Organizer\Organizer\bin\Debug\ExcelApi.xml
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Organizer\Organizer\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Organizer\Organizer\bin\Debug\MahApps.Metro.xml
+C:\Organizer\Organizer\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Organizer\Organizer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Organizer\Organizer\bin\Debug\NetOffice.xml
+C:\Organizer\Organizer\bin\Debug\OfficeApi.xml
+C:\Organizer\Organizer\bin\Debug\VBIDEApi.xml
+C:\Organizer\Organizer\obj\Debug\Organizer.csprojResolveAssemblyReference.cache
+C:\Organizer\Organizer\obj\Debug\View\AddingNewEventWindow.g.cs
+C:\Organizer\Organizer\obj\Debug\View\EventEditorControl.g.cs
+C:\Organizer\Organizer\obj\Debug\View\MainWindow.g.cs
+C:\Organizer\Organizer\obj\Debug\View\ShowTodayEventsWindow.g.cs
+C:\Organizer\Organizer\obj\Debug\App.g.cs
+C:\Organizer\Organizer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Organizer\Organizer\obj\Debug\Organizer_MarkupCompile.cache
+C:\Organizer\Organizer\obj\Debug\Organizer_MarkupCompile.lref
+C:\Organizer\Organizer\obj\Debug\App.baml
+C:\Organizer\Organizer\obj\Debug\Templates\EventModelBaseTemplate.baml
+C:\Organizer\Organizer\obj\Debug\View\AddingNewEventWindow.baml
+C:\Organizer\Organizer\obj\Debug\View\EventEditorControl.baml
+C:\Organizer\Organizer\obj\Debug\View\MainWindow.baml
+C:\Organizer\Organizer\obj\Debug\View\ShowTodayEventsWindow.baml
+C:\Organizer\Organizer\obj\Debug\Organizer.g.resources
+C:\Organizer\Organizer\obj\Debug\Organizer.Properties.Resources.resources
+C:\Organizer\Organizer\obj\Debug\Organizer.csproj.GenerateResource.Cache

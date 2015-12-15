@@ -1,0 +1,65 @@
+﻿    <metrocontrols:MetroWindow x:Class="Organizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:metrocontrols="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:local="clr-namespace:Organizer"
+        xmlns:vm="clr-namespace:Organizer.View"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Platform"
+        mc:Ignorable="d"
+        Title="Органайзер" Height="350" Width="525"
+        
+        BorderThickness="1" 
+        GlowBrush="Black"
+        ResizeMode="CanResizeWithGrip"
+
+        WindowTransitionsEnabled="False"
+        WindowStartupLocation="CenterScreen"
+                           
+        DataContext="{Binding Path=Main ,Source={StaticResource Locator}}">
+    <metrocontrols:MetroWindow.Resources>
+        <ResourceDictionary>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <!--вышли из папки , в 
+                которой лежит данный файл, потом спустились в папку Templates, потом зашли в нее
+                и нашли необходимый нам файл. если файл не найдется по идее вызовется Exception и прога ляжет -->
+                <ResourceDictionary Source="../Templates/EventModelBaseTemplate.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </metrocontrols:MetroWindow.Resources>
+    
+    <metrocontrols:MetroWindow.RightWindowCommands>
+        <metrocontrols:WindowCommands>
+            <Button Content="Save to Excel" Command="{Binding Path=ButSaveExcel}" />
+            <Button Content="Новое событие" Command="{Binding Path=ButAddNewEvent}"/>
+        </metrocontrols:WindowCommands>
+    </metrocontrols:MetroWindow.RightWindowCommands>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        
+        <!--отображаем события в порядке следования их по дате!-->
+        <ListView Grid.Column="0" ItemsSource="{Binding Path=Events}" SelectionMode="Single" BorderThickness="0">
+            <i:Interaction.Triggers>
+                <!-- перенаправляем событие SelectionChanged на команду SelectionChanged в свойстве viewmodel-->
+                <i:EventTrigger EventName="SelectionChanged">
+                    <cmd:EventToCommand Command="{Binding Path=SelectionChanged}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </ListView>
+
+        <!--позволяет окошечки по-разному размер ставить -->
+        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Center" Background="DarkRed" />
+
+        <!--Собственно окно редактирования события-->
+        <vm:EventEditorControl Grid.Column="2" />
+
+    </Grid>
+</metrocontrols:MetroWindow>
